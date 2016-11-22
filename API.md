@@ -5,7 +5,7 @@
 <!-- toc -->
 
 - [Rules](#rules)
-  - [`number.filesize(options)`](#filesize)
+  - [`number.filesize(options)`](#numberfilesizeoptions)
 
 <!-- tocstop -->
 
