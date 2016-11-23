@@ -37,6 +37,17 @@ describe('number', () => {
 
         });
 
+        it('validates an falsey value', (done) => {
+
+            const schema = Joi.number().filesize();
+            schema.validate(undefined, (err, value) => {
+
+                expect(err).to.not.exist();
+                done();
+            });
+
+        });
+
         it('valid file size', (done) => {
 
             Helper.validate(Joi.number().filesize(), [
