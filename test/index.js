@@ -58,6 +58,15 @@ describe('number', () => {
 
         });
 
+        it('file size must be positive', (done) => {
+
+            Helper.validate(Joi.number().filesize(), [
+                [-1, false, null, '"value" must be larger than or equal to 0'],
+                ['-1 KB', false, null, '"value" must be a valid file size']
+            ], done);
+
+        });
+
         it('invalid file size', (done) => {
 
             Helper.validate(Joi.number().filesize(), [
