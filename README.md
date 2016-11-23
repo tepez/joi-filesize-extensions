@@ -53,6 +53,6 @@ Joi.validate('1 XX', Joi.number().filesize({ base: 10 })).error.message   // "va
 ```
 
 # API
-See the [API Reference](https://github.com/tepez/joi-filesize-extensions/blob/v1.0.1/API.md).
+See the [API Reference](https://github.com/tepez/joi-filesize-extensions/blob/v1.0.2/API.md).
 
 Based on [hapijs/joi-date-extensions](https://github.com/hapijs/joi-date-extensions)
