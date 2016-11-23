@@ -1,7 +1,7 @@
 {
   "name": "joi-filesize-extensions",
   "description": "Joi extension for file sizes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/tepez/joi-filesize-extensions",
   "repository": "git://github.com/tepez/joi-filesize-extensions",
   "main": "lib/index.js",
