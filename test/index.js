@@ -182,5 +182,12 @@ describe('number', () => {
             });
             done();
         });
+
+        it('should not interfere with normal Joi.number()', (done) => {
+
+            Helper.validate(Joi.number(), [
+                ['xxx', false, null, '"value" must be a number']
+            ], done);
+        });
     });
 });
